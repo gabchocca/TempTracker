@@ -1,4 +1,5 @@
 
+//PORFAVOR, DESCARGA QUOKKA.JS PARA HACER FUNCIONAR ESTE PROGRAMA
 const keyApi = "ae4a071fd2ce4578a2e144013252304";
 const language = "es";
 const city = "Huancayo";
