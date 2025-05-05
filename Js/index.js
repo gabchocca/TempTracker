@@ -1,7 +1,6 @@
 const keyApi = "ae4a071fd2ce4578a2e144013252304";
 const language = "es";
 
-
 async function getClimate(){
     const input_city = document.getElementById("input_city");
     const city = input_city.value;
