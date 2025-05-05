@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/index.css">
+    <script src="../Js/index.js"></script>
+    <title>Temp Tracker</title>
+</head>
+<body>
+    <div class="container">
+        <div class="search">
+
+            <input 
+            type="text"
+            placeholder="Ingresa nombre de la ciudad"
+            spellcheck="false"
+            autocomplete="off"
+            id="input_city">
+
+            <button onclick="getClimate()">
+                <img src="../res/images/buscar.png" alt="search">
+            </button>
+
+        </div>
+        <div class="info_climate">
+            <p class="text_climate">Parcialmente nublado</p>
+            <img  class="icon_climate" src="../res/images/clima-ejemplo.webp" alt="climate_sample">
+            <h1 class="temp">22°C</h1>
+            <h2 class="city">Huancayo</h2>
+
+            <div class="details">
+                <div class="col">
+                    <img src="../res/images/humedad.png" alt="humidity">
+                    <div>
+                        <p class="humidity_sample">50%</p>
+                        <p>Humedad</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="../res/images/viento.png" alt="wind">
+                    <div>
+                        <p class="wind">15 km/h</p>
+                        <p>Viento</p>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
